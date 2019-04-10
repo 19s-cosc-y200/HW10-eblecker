@@ -6,38 +6,49 @@ Date Last Modified: 4/3/2019*/
 body
 {
     color:  #cb9682;
-    background-color: #EFE3D3;
-    font-family: "palatino";
-    font-size:16px;
-    font-style:bold;
-    line-height: 200%;
+    background-color: #ffffff;
+    font-family: "calibri";
     list-style-position: inside;
+}
 
+header
+{
+    background-color: #000033;
+    color: #ffffff;
+    font-family: "palatino"
 }
 
 h1
 {
     color: #5f9ea0;
     line-height: 200%;
-    text-align: center;
 }
 
 nav
 {
-    font-style:bold;
-    text-align: center;
+    font-weight: bold;
     background-color: #03BCDF;
-    font-size:18px;
 }
 
 h2
 {
     color: #03BCDF;
-    font-size: 24px;
-    text-align: center;
+    font-family: "palatino"
 }
 
-#address
+dt
+{
+    color: #000033;
+    font-weight: bold;
+}
+
+.resort
+{
+    color: #000033;
+    font-size: 1.2em;
+}
+
+/*#address
 {
     position: fixed;
     left: 10;
@@ -46,18 +57,13 @@ h2
     font-size: 12px;
     line-height: 100%;
     
-}
+}*/
 
 footer
 {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 12px;
+    font-size: .70em;
     font-style: italic;
     text-align: center;
-    line-height: 100%;
 }
  
 #wrapper
